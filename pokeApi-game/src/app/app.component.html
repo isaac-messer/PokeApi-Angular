@@ -1,0 +1,26 @@
+<div id="appPageContainer">
+  <div id="pageVerticalContainer">
+    <div id="topNavBarContainer">
+    <app-top-nav-bar (sideBarEvent)="drawer.toggle()"/>
+    </div>
+    <div id="pageHorizontalContainer">
+      <mat-drawer-container>
+        <mat-drawer #drawer mode="side" opened="true">
+          <div id="secondaryContentContainer">
+            <div id="searchBarContaner">
+              <app-search-bar/>
+            </div>
+            <div id="sideMenuBarContainer">
+              <app-side-menu-bar/>
+            </div>
+          </div>
+        </mat-drawer>   
+      </mat-drawer-container>
+      <div id="mainContentContainer">
+        <div id="displayContainer">
+        <app-game-screen/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

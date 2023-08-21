@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-top-nav-bar',
@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class TopNavBarComponent {
 
+  @Output() sideBarEvent: EventEmitter<any> = new EventEmitter();
+  
+  toggleSideBarButton() {
+    console.log(`Button Clicked`);
+    
+    this.sideBarEvent.emit();
+  }
 }
