@@ -1,0 +1,11 @@
+app-side-menu-bar {
+    width: 100%;
+    display: flex;
+
+    #sideMenuBarContainer app-side-menu-bar mat-list mat-list-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

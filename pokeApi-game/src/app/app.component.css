@@ -1,0 +1,10 @@
+app-side-menu-bar {
+  width: 100%;
+  display: flex;
+}
+app-side-menu-bar #sideMenuBarContainer app-side-menu-bar mat-list mat-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=app.component.css.map */

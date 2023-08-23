@@ -12,6 +12,8 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
 import { GameScreenComponent } from './components/game-screen/game-screen.component';
 import { PokeSelectComponent } from './components/poke-select/poke-select.component';
 import { MaterialModule } from './modules/material.module';
+import { SearchResultsScreenComponent } from './components/search-results-screen/search-results-screen.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,15 @@ import { MaterialModule } from './modules/material.module';
     SearchBarComponent,
     GameScreenComponent,
     PokeSelectComponent,
+    SearchResultsScreenComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

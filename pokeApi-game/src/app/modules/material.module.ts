@@ -6,6 +6,7 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatSidenav, MatSidenavModule} from '@angular/material/sidenav';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { MatListModule } from '@angular/material/list'
 
 
 
@@ -20,6 +21,7 @@ import {MatInputModule} from '@angular/material/input';
     MatSidenavModule,
     MatFormFieldModule,
     MatInputModule,
+    MatListModule,
     NgFor,
     NgIf
   ],
@@ -32,6 +34,7 @@ import {MatInputModule} from '@angular/material/input';
     MatSidenavModule,
     MatFormFieldModule,
     MatInputModule,
+    MatListModule,
     NgFor,
     NgIf
   ]

@@ -1,0 +1,15 @@
+mat-list {
+    width: 100%;
+
+    ::ng-deep .mdc-list-item__content {
+        display: flex;
+        justify-content: center;
+
+        .mat-mdc-list-item-unscoped-content {
+            width: 100%;
+            button {
+                width: 100%;
+            }
+        }
+    }   
+}

@@ -1,5 +1,9 @@
-<mat-form-field appearance="fill">
-    <mat-label>Search</mat-label>
-    <input matInput placeholder="Placeholder">
-    <mat-icon matSuffix>search_glass</mat-icon>
+<mat-form-field appearance="fill" class="fieldForm">
+    <div class="searchBar noPadding">
+        <input matInput placeholder="Placeholder">
+        <button mat-icon-button routerLink="/searchResults">
+            <mat-icon>search_glass</mat-icon>
+        </button>
+    </div>  
 </mat-form-field>
+<!-- <router-outlet></router-outlet> -->

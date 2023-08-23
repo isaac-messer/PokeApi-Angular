@@ -1,0 +1,15 @@
+mat-form-field {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+::ng-deep div.mat-mdc-form-field-infix {
+  padding: 0;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=search-bar.component.css.map */
